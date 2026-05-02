@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:github.com)",
+      "Bash(\"C:\\\\Users\\\\Helena\\\\.local\\\\token-savior-venv\\\\Scripts\\\\token-savior.exe\" --version)",
+      "Bash(echo \"EXIT CODE: $?\")",
+      "Bash(\"C:\\\\Users\\\\Helena\\\\.local\\\\token-savior-venv\\\\Scripts\\\\pip.exe\" install *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(magick --version)",
+      "Bash(convert --version)",
+      "mcp__token-savior__search_codebase",
+      "PowerShell($path = [System.IO.Path]::Combine\\($env:USERPROFILE, \"Desktop\", \"prospect-main\", \"PROSPECT.app `u{2014} RepliOS_files\"\\); Get-ChildItem $path | Select-Object Name)"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "token-savior"
+  ]
+}

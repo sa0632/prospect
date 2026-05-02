@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "token-savior": {
+      "command": "C:\\Users\\Helena\\.local\\token-savior-venv\\Scripts\\token-savior.exe",
+      "env": {
+        "WORKSPACE_ROOTS": "C:\\Users\\Helena\\Desktop\\prospect-main",
+        "TOKEN_SAVIOR_CLIENT": "claude-code"
+      }
+    }
+  }
+}
