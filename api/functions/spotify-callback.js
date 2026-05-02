@@ -22,10 +22,11 @@ module.exports.handler = async (event) => {
 
   const data = await tokenRes.json();
 
+  const appUrl = process.env.APP_URL || "http://localhost:3000";
   return {
     statusCode: 302,
     headers: {
-      Location: `/?spotify_token=${data.access_token}`
+      Location: `${appUrl}/?spotify_token=${data.access_token}`
     }
   };
 };

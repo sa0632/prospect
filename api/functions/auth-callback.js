@@ -30,9 +30,10 @@ exports.handler = async function(event) {
       gmail_email: email
     });
 
+    const appUrl = process.env.APP_URL || "http://localhost:3000";
     return {
       statusCode: 302,
-      headers: { Location: `http://localhost:3000/?${params.toString()}` }
+      headers: { Location: `${appUrl}/?${params.toString()}` }
     };
 
   } catch (err) {
