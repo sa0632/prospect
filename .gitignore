@@ -3,3 +3,8 @@ node_modules
 start.bat
 prospect.bat
 dist/
+.claude/
+.mcp.json
+claude.md
+CLAUDE.md
+.token-savior-cache.json
